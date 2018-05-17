@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5225189209BE1B900721713 /* PariMutuelBet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5225188209BE1B900721713 /* PariMutuelBet.swift */; };
 		E5B6FC68209BAF03003FDEB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC67209BAF03003FDEB8 /* AppDelegate.swift */; };
 		E5B6FC6A209BAF03003FDEB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC69209BAF03003FDEB8 /* ViewController.swift */; };
-		E5B6FC6D209BAF03003FDEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FC6B209BAF03003FDEB8 /* Main.storyboard */; };
 		E5B6FC70209BAF03003FDEB8 /* DudeBet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC6E209BAF03003FDEB8 /* DudeBet.xcdatamodeld */; };
 		E5B6FC72209BAF08003FDEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FC71209BAF08003FDEB8 /* Assets.xcassets */; };
 		E5B6FC75209BAF08003FDEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FC73209BAF08003FDEB8 /* LaunchScreen.storyboard */; };
+		E5B6FC81209BAF3E003FDEB8 /* BetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC7C209BAF3D003FDEB8 /* BetViewController.swift */; };
+		E5B6FC82209BAF3E003FDEB8 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC7D209BAF3D003FDEB8 /* EventDetailViewController.swift */; };
+		E5B6FC83209BAF3E003FDEB8 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC7E209BAF3E003FDEB8 /* EventsTableViewController.swift */; };
+		E5B6FC84209BAF3E003FDEB8 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC7F209BAF3E003FDEB8 /* EventTableViewCell.swift */; };
+		E5B6FC85209BAF3E003FDEB8 /* NewBetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6FC80209BAF3E003FDEB8 /* NewBetViewController.swift */; };
+		E5B6FC87209BB0C3003FDEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B6FC86209BB0C3003FDEB8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5225188209BE1B900721713 /* PariMutuelBet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PariMutuelBet.swift; sourceTree = "<group>"; };
 		E5B6FC64209BAF03003FDEB8 /* DudeBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudeBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B6FC67209BAF03003FDEB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5B6FC69209BAF03003FDEB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5B6FC6C209BAF03003FDEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B6FC6F209BAF03003FDEB8 /* DudeBet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DudeBet.xcdatamodel; sourceTree = "<group>"; };
 		E5B6FC71209BAF08003FDEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B6FC74209BAF08003FDEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5B6FC76209BAF08003FDEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B6FC7C209BAF3D003FDEB8 /* BetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetViewController.swift; sourceTree = "<group>"; };
+		E5B6FC7D209BAF3D003FDEB8 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		E5B6FC7E209BAF3E003FDEB8 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		E5B6FC7F209BAF3E003FDEB8 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		E5B6FC80209BAF3E003FDEB8 /* NewBetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewBetViewController.swift; path = DudeBet/NewBetViewController.swift; sourceTree = SOURCE_ROOT; };
+		E5B6FC86209BB0C3003FDEB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E5B6FC88209BB756003FDEB8 /* DudeBet v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "DudeBet v2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				E5B6FC67209BAF03003FDEB8 /* AppDelegate.swift */,
-				E5B6FC69209BAF03003FDEB8 /* ViewController.swift */,
-				E5B6FC6B209BAF03003FDEB8 /* Main.storyboard */,
 				E5B6FC71209BAF08003FDEB8 /* Assets.xcassets */,
-				E5B6FC73209BAF08003FDEB8 /* LaunchScreen.storyboard */,
-				E5B6FC76209BAF08003FDEB8 /* Info.plist */,
+				E5B6FC7C209BAF3D003FDEB8 /* BetViewController.swift */,
 				E5B6FC6E209BAF03003FDEB8 /* DudeBet.xcdatamodeld */,
+				E5B6FC7D209BAF3D003FDEB8 /* EventDetailViewController.swift */,
+				E5B6FC7E209BAF3E003FDEB8 /* EventsTableViewController.swift */,
+				E5B6FC7F209BAF3E003FDEB8 /* EventTableViewCell.swift */,
+				E5B6FC76209BAF08003FDEB8 /* Info.plist */,
+				E5B6FC73209BAF08003FDEB8 /* LaunchScreen.storyboard */,
+				E5B6FC86209BB0C3003FDEB8 /* Main.storyboard */,
+				E5B6FC80209BAF3E003FDEB8 /* NewBetViewController.swift */,
+				E5225188209BE1B900721713 /* PariMutuelBet.swift */,
+				E5B6FC69209BAF03003FDEB8 /* ViewController.swift */,
 			);
 			path = DudeBet;
 			sourceTree = "<group>";
@@ -127,7 +146,7 @@
 			files = (
 				E5B6FC75209BAF08003FDEB8 /* LaunchScreen.storyboard in Resources */,
 				E5B6FC72209BAF08003FDEB8 /* Assets.xcassets in Resources */,
-				E5B6FC6D209BAF03003FDEB8 /* Main.storyboard in Resources */,
+				E5B6FC87209BB0C3003FDEB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B6FC81209BAF3E003FDEB8 /* BetViewController.swift in Sources */,
+				E5B6FC85209BAF3E003FDEB8 /* NewBetViewController.swift in Sources */,
+				E5B6FC82209BAF3E003FDEB8 /* EventDetailViewController.swift in Sources */,
+				E5B6FC83209BAF3E003FDEB8 /* EventsTableViewController.swift in Sources */,
+				E5225189209BE1B900721713 /* PariMutuelBet.swift in Sources */,
 				E5B6FC6A209BAF03003FDEB8 /* ViewController.swift in Sources */,
+				E5B6FC84209BAF3E003FDEB8 /* EventTableViewCell.swift in Sources */,
 				E5B6FC68209BAF03003FDEB8 /* AppDelegate.swift in Sources */,
 				E5B6FC70209BAF03003FDEB8 /* DudeBet.xcdatamodeld in Sources */,
 			);
@@ -147,14 +172,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5B6FC6B209BAF03003FDEB8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5B6FC6C209BAF03003FDEB8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5B6FC73209BAF08003FDEB8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,9 +358,10 @@
 		E5B6FC6E209BAF03003FDEB8 /* DudeBet.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				E5B6FC88209BB756003FDEB8 /* DudeBet v2.xcdatamodel */,
 				E5B6FC6F209BAF03003FDEB8 /* DudeBet.xcdatamodel */,
 			);
-			currentVersion = E5B6FC6F209BAF03003FDEB8 /* DudeBet.xcdatamodel */;
+			currentVersion = E5B6FC88209BB756003FDEB8 /* DudeBet v2.xcdatamodel */;
 			path = DudeBet.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
